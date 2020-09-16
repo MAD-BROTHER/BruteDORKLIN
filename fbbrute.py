@@ -9,7 +9,13 @@ import hashlib
 API_SECRET = "62f8ce9f74b12f84c123cc23437a4a32"
 
 __banner__ = """
-\033[1;34mThis Is Not My Script Its Real Author Dedsec,dtlily,gameye98 and other fair use just for educational perposes only"""
+\033[1;34m"""
+#functions for letter work
+os.system("clear")
+def banner():
+    os.system("bash Banner.sh")
+def PBF(banner):
+    banner()
 print(__banner__)
 print("[+] Facebook Brute Force\n")
 userid = input("[*] Enter [Email|Phone|Username|ID]: ")
@@ -38,3 +44,4 @@ try:
 		print("fbbrute: error: No such file or directory")
 except KeyboardInterrupt:
 	print("fbbrute: error: Keyboard interrupt")
+
